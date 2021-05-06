@@ -1,0 +1,40 @@
+body {
+    background: #27ae60;
+    font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(194, 189, 168);
+}
+
+form {
+    position: relative;
+    padding-top: 100px;
+}
+
+form {
+    margin: 200px;
+    background-size: 500px;
+}
+
+form {
+    background-color: white;
+}
+
+form {
+    border-width: 5px;
+    border-style: outset
+}
+
+#b {
+    margin-left: 0px;
+    margin-right: 0px;
+}
