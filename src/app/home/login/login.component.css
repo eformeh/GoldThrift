@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9e9e9;
+    display: flex;
+    min-height: 100vh;
+    font-family: lato;
+}
+
+.login-section{
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    max-width: 90%;
+}
+
+.login-section form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px grey;
+}
+
+.login-section form h1{
+    font-family: lato;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    margin: 20px 0px 20px 0px;
+}
+
+.login-section form input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 8px;
+}
+
+.login-section form .login-button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: lato;
+    color: #f5d000;
+    background-color: #000000;
+    background-image: linear-gradient(to bottom right, #2e2e2e, #000000);
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin: 3px 10px 28px 0px;
+    margin-bottom: 28px;
+    box-shadow: 3px 3px 4px grey;
+    position: relative;
+    left: 90px;      
+}
+
+.login-section form .login-button a:hover{
+    box-shadow: 5px 5px 9px grey;
+    color: #000000;
+    background-color: #f5d000;
+    background-image: linear-gradient(to bottom right,  #fdcd3b, #e6c300);
+}
+
+.login-section form .signup p{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-section form .signup a{
+    color: #f5d000;
+    font-weight: 600;
+}
