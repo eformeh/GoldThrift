@@ -29,15 +29,15 @@ header .search-nav input{
     border: 1px solid #636363;
 }
   
-header .search-nav button {
+/* header .search-nav button {
     float: right;
     padding: 10px 10px;
     background-color: black;
     color: #f5d000;
     font-size: 19px;
     border: none;
-    cursor: pointer;
-}
+    cursor: pointer;} */
+
 
 header nav ul{
     float: right;
