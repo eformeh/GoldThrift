@@ -1,0 +1,67 @@
+header{
+    padding: 30px 0px 20px 0px;
+}
+
+header .logo h1{
+    text-transform: capitalize;
+    font-family: lato;
+    font-size: 30px;
+    font-weight: 900;
+    color: #000000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+header .logo h1 span{
+    color: #ffbf00;
+}
+
+header .search-nav{
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+header .search-nav input{
+    padding: 10px;
+    font-size: 17px;
+    width: 318px;
+    border: 1px solid #636363;
+}
+  
+header .search-nav button {
+    float: right;
+    padding: 10px 10px;
+    background-color: black;
+    color: #f5d000;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+}
+
+header nav ul{
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+header nav ul li a{
+    display: block;
+    font-family: lato;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid #f5d000;
+    border-radius: 2px;
+    color: #636363;
+}
+/* unsemantic-grid responsive tablet */
