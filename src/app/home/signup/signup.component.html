@@ -1,65 +1,12 @@
-<div class="view">
-    <div class="container">
-        <header>
-            <h3>
-                <fa-icon icon="lock"></fa-icon> Register
-            </h3>
-        </header>
-        <br />
-        <form [formGroup]="registerForm" (ngSubmit)="submit(registerForm)" class="login-form" novalidate>
-            <div class="login">
-                <div class="row">
-                    <div class="col-md-2">
-                        Name:
-                    </div>
-                    <div class="col-md-10">
-                        <input type="text" name="name" class="form-control" formControlName="name" />
-                        <div class="alert alert-danger" [hidden]="registerForm.controls.name.untouched || registerForm.controls.name.valid">
-                            A valid name is required (minimum 3 characters)
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="col-md-2">
-                        Email:
-                    </div>
-                    <div class="col-md-10">
-                        <input type="email" name="email" class="form-control" formControlName="email" />
-                        <div class="alert alert-danger" [hidden]="registerForm.controls.email.untouched || registerForm.controls.email.valid">
-                            A valid email address is required
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="col-md-2">
-                        Password:
-                    </div>
-                    <div class="col-md-10">
-                        <input type="password" name="password" class="form-control" formControlName="password" />
-                        <div class="alert alert-danger" [hidden]="registerForm.controls.password.untouched || registerForm.controls.password.valid">
-                            Password is required (6 or more characters with at least one number)
-                        </div>
-                    </div>
-                </div>
-                <br />
-                <div class="row">
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-success" [disabled]="!registerForm.valid">Register</button>
-                    </div>
-                </div>
-                <br />
-                <div class="statusRow">
-                    <br />
-                    <div class="label label-important" *ngIf="errorMessage">
-                        <fa-icon icon="thumbs-down"></fa-icon>&nbsp;&nbsp;Error: {{ errorMessage }}
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-    <p> Already have an account ?
-        <a routerLink="/login">Login here!</a>
-    </p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>>
