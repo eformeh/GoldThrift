@@ -1,35 +1,66 @@
-<head>
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
-        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-</head>
-
-<header>
-    <div class="grid-container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-expand{-sm|-md|-lg|-xl|-xxl}">
+    <div class="container-fluid">
         <div class="grid-33">
             <div class="logo">
+<<<<<<< Updated upstream
                 <a style="text-decoration: none;" href="/home">
                     <h1><span>Gold</span>Thrift</h1>
+=======
+                <a href="/home" class="navbar-brand">
+                    <h1><span style="color: gold;">Gold</span>Thrift</h1>
+>>>>>>> Stashed changes
                 </a>
             </div>
         </div>
-        <div class="grid-33">
-            <div class="search-nav">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search..." name="search">
-                    <span><button>
-                            <fa-icon [icon]="faSearch"></fa-icon>
-                        </button></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit">Search</button>
                 </form>
-            </div>
-        </div>
-        <div class="grid-33">
-            <nav>
-                <ul>
-                    <li><a href="#">WOMEN</a></li>
-                    <li><a href="#">MEN</a></li>
-                </ul>
-            </nav>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Women
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Men
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
         </div>
     </div>
-</header>
+</nav>
