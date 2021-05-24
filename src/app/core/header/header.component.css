@@ -24,7 +24,12 @@ header .logo h1{
 header .logo h1 span{
     color: #ffbf00;
 }
-
+#navbarDropdown1{
+float: right;
+}
+#navbarDropdown2{
+float: right;
+}
 header .search-nav{
     margin-top: 5px;
     width: 100%;
