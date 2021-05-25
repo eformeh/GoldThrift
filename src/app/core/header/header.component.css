@@ -24,11 +24,8 @@ header .logo h1{
 header .logo h1 span{
     color: #ffbf00;
 }
-#navbarDropdown1{
-float: right;
-}
-#navbarDropdown2{
-float: right;
+#navbarDropdown1,#navbarDropdown2{
+left: 100%;
 }
 header .search-nav{
     margin-top: 5px;
@@ -79,4 +76,8 @@ header nav ul li a:hover{
     border-radius: 2px;
     color: #636363;
 }
+#search{
+    padding-left: 33%;
+}
+
 /* unsemantic-grid responsive tablet */

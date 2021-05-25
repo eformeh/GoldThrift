@@ -20,6 +20,8 @@ body {
 }
 /*form styles*/
 #msform {
+	padding-top: 90px;
+	padding-bottom: 50px;
 	width: 700px;
 	margin: 50px auto;
 	text-align: center;
