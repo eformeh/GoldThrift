@@ -44,6 +44,7 @@ body {
     width: 20rem;
     border:rgb(1, 231, 231) ;
     border-style: solid;
+    border-radius: 5%;
 
 }
 .quote{
