@@ -5,7 +5,7 @@
 * {margin: 0; padding: 0;}
 
 html {
-	height: 100%;
+max-height: max-content;
 	
 	
 	/*Image only BG fallback*/
@@ -24,13 +24,17 @@ html {
 }
 /*form styles*/
 #msform {
-	
+	max-height: fit-content;
+	max-width: fit-content;
 	width: 600px;
 	margin: 50px auto;
+
 	text-align: center;
 	position: relative;
+	
 	bottom: 20px;
-	top: 40px;
+	/* top: 40px; */
+	padding-top: 50px;
 	
 	
 	
