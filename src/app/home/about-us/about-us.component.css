@@ -42,6 +42,9 @@ body {
     padding-left: 4%;
     height: 15rem;
     width: 20rem;
+    border:rgb(1, 231, 231) ;
+    border-style: solid;
+
 }
 .quote{
     padding-top: 1%;
