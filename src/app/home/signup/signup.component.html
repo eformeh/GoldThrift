@@ -1,7 +1,7 @@
 <!-- multistep form -->
 
 <body>
-    <form id="msform">
+    <form id="msform" action="/login">
         <!-- fieldsets -->
         <fieldset>
             <h2 class="fs-title">Create your account</h2>
@@ -15,7 +15,9 @@
             <input type="text" name="lname" placeholder="Last Name" />
             <input type="text" name="phone" placeholder="Phone" />
             <textarea name="address" placeholder="Address"></textarea>
-            <input type="submit" name="submit" class="submit action-button" value="Submit" />
+            <div type="submit" value="Submit" class="login-button">
+                <a href="#">Log In</a>
+            </div>
         </fieldset>
     </form>
 </body>

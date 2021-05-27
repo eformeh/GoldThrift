@@ -1,22 +1,2 @@
 html{font-family: 'Lato', sans-serif;
 background-color: #e9e9e9};
-
-#loader-wrapper .loader-section{
-    position:fixed;
-    top:0;
-    width:51%;
-    background:rgb(255, 255, 255);
-    z-index:1000;
-}
-#loader-wrapper .loader-section.section-left{
-left:0;
-}
-#loader-wrapper .loader-section.section-right{
-   right:0; 
-}
-.sk-cube-grid {
-    width: 40px;
-    height: 40px;
-    margin: 100px auto;
-  }
-  

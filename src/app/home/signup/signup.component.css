@@ -2,17 +2,18 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 /*basic reset*/
-* {margin: 0; padding: 0;}
+* {margin: 0; padding:0;}
 
 html {
 max-height: max-content;
-	
+
 	
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
 	background: 
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+		
 }
 
 .bd {
@@ -23,9 +24,31 @@ max-height: max-content;
 	
 }
 /*form styles*/
+.login-button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: lato;
+    color: #f5d000;
+    background-color: #000000;
+    background-image: linear-gradient(to bottom right, #2e2e2e, #000000);
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin: 3px 10px 28px 20px;
+    margin-bottom: 28px;
+    box-shadow: 3px 3px 4px grey;
+    position: relative;
+    transition: 700ms ease-in-out;
+       
+}
+.login-button a:hover{
+    box-shadow: 5px 5px 9px grey;
+    color: #000000;
+    background-color: #f5d000;
+    background-image: linear-gradient(to bottom right,  #fdcd3b, #e6c300);
+}
 #msform {
-	max-height: fit-content;
-	max-width: fit-content;
 	width: 600px;
 	margin: 50px auto;
 

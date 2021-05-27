@@ -1,12 +1,12 @@
 footer{
     background-color: #9b9b9b;
     height: 200px;
-    
+    font-family: lato;
 }
 
 footer .contact-us h1{
     text-transform: capitalize;
-    font-family: lato;
+    /* font-family: lato; */
     font-size: 15px;
     color: #212121;
     font-weight: 600;
@@ -86,7 +86,7 @@ footer .more{
 
 footer .more h1{
     text-transform: capitalize;
-    font-family: lato;
+    /* font-family: lato; */
     font-size: 15px;
     color: #212121;
     font-weight: 600;
@@ -95,7 +95,7 @@ footer .more h1{
 
 footer .more a{
     color: #505050;
-    font-family: lato;
+    /* font-family: lato; */
     line-height: 30px;
     font-weight: 600;
     font-size: 15px
