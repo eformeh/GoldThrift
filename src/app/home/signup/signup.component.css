@@ -24,7 +24,7 @@ max-height: max-content;
 	
 }
 /*form styles*/
-.login-button a{
+.signup-button a{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
@@ -42,7 +42,7 @@ max-height: max-content;
     transition: 700ms ease-in-out;
        
 }
-.login-button a:hover{
+.signup-button a:hover{
     box-shadow: 5px 5px 9px grey;
     color: #000000;
     background-color: #f5d000;
