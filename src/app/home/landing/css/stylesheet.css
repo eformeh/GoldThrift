@@ -49,6 +49,9 @@ section.section-a .theme .login-button span a{
     box-shadow: 3px 3px 4px grey;   
 }
 
+    
+    
+
 section.section-a .theme .login-button span a:hover{
     transform: scale(1.1);
     box-shadow: 5px 5px 9px grey;
@@ -72,5 +75,67 @@ section.section-a .theme-img{
     max-width: 500px;
     padding-top: 5rem;
     
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    margin:2%;
+    
+    
+  }
+  .women {
+      padding-left: 10px;
+      padding-right: 10px;
+      
+  }
+  .men{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+  .flex-container .women a{
+    background-color:#f5d000;
+    max-width: 100%;    
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: lato;
+    color: black;
+    box-shadow: 3px 3px 4px grey;
+  }
+  .flex-container .men a{
+    background-color: rgb(145, 31, 197);
+    max-width: 100%;    
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: lato;
+    color: black;
+    box-shadow: 3px 3px 4px grey;
+    
+    
+    
+  }
+  .men a:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 9px grey;
+    background-image: linear-gradient(to bottom right,   rgb(226, 57, 175),  rgb(226, 57, 175));
+}
+.women a:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 9px grey;
+    background-image: linear-gradient(to bottom right,  rgb(228, 108, 108), rgb(253, 86, 8));
 }
 
