@@ -1,0 +1,56 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+basic reset
+* {margin: 0; padding: 0;}
+
+html {
+	/* height: 100%; */
+	/*Image only BG fallback*/
+	
+	/*background = gradient + image pattern combo*/
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+
+body {
+	font-family: lato, arial, verdana;
+	background-color: #e9e9e9;
+    padding-bottom: 600px;	
+}
+
+.header_titleWrap{
+    font-family: lato, arial, verdana;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
+   }
+.header_title{
+    font-family: lato, arial, verdana;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.pic_container{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+}
+.imgclass{
+    padding-right: 6%;
+    padding-left: 4%;
+    height: 15rem;
+    width: 20rem;
+    border:rgb(1, 231, 231) ;
+    border-style: solid;
+    border-radius: 5%;
+
+}
+.quote{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: 10;
+    font-size: 88%;
+    font-style: italic;
+}
