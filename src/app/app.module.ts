@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './core/header/header.component';
-import { FooterComponent } from './core/footer/footer.component';
+
 import { CookieService } from 'ngx-cookie-service';
 
 
@@ -14,7 +14,7 @@ import { CookieService } from 'ngx-cookie-service';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
+   
   ],
 
   imports: [
@@ -28,3 +28,5 @@ import { CookieService } from 'ngx-cookie-service';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
