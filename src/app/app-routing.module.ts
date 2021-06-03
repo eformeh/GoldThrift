@@ -6,6 +6,10 @@ const routesApp: Routes = [
   {
     path: '',
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./home/products/product.module').then(m => m.ProductModule)
   }
 ];
 
