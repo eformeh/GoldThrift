@@ -84,6 +84,10 @@ header nav ul li a:hover{
 #search{
     padding-left: 15%;
 }
-
-
+.iconspace{
+    margin-left: 9px;
+}
+.helppad{
+    margin-bottom: 18px;
+}
 /* unsemantic-grid responsive tablet */
