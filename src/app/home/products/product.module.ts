@@ -10,7 +10,8 @@ import { ProductComponent } from './product.component';
   declarations: [
     WomenComponent,
     MenComponent,
-    ProductComponent
+    ProductComponent,
+    
   ],
   imports: [
     CommonModule,

@@ -6,6 +6,7 @@ import { HomeComponent } from '../home/home.component';
 import { LandingComponent } from '../home/landing/landing.component';
 import { ForgotPasswordComponent } from '../home/forgot-password/forgot-password.component';
 import { AboutUsComponent } from '../home/about-us/about-us.component';
+
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
@@ -16,7 +17,8 @@ const routes: Routes = [
       { path: 'signup', component: SignupComponent },
       { path: 'home', component: LandingComponent },
       { path: 'forgot-password', component: ForgotPasswordComponent },
-      { path: 'about-us', component: AboutUsComponent }
+      { path: 'about-us', component: AboutUsComponent },
+   
     ]
 
   }];

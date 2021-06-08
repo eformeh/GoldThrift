@@ -17,6 +17,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     LandingComponent,
     ForgotPasswordComponent,
     AboutUsComponent,
+    
    
   ],
   imports: [
