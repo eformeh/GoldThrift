@@ -278,9 +278,9 @@ footer .more a{
     height: 100px;
     position: relative;
     animation-name: example;
-    animation-duration: 15s;
+    animation-duration: 4s;
     animation-delay: 0.001s;
-    animation-iteration-count: 1000000000000000;
+    animation-iteration-count: 1000;
   }
   @keyframes example {
     0%   {left:0px; top:0px;}

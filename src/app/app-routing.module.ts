@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { LandingComponent } from './home/landing/landing.component';
 const routesApp: Routes = [
-  { path: '', redirectTo: '', pathMatch: 'full' },
+  { path: '', redirectTo: '', pathMatch: 'full', component:LandingComponent },
 
   {
     path: '',
@@ -10,7 +12,9 @@ const routesApp: Routes = [
   {
     path: '',
     loadChildren: () => import('./home/products/product.module').then(m => m.ProductModule)
-  }
+  },
+  { path: '**',
+    component: PageNotFoundComponent }
 ];
 
 @NgModule({

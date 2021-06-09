@@ -8,14 +8,14 @@ import { ForgotPasswordComponent } from '../home/forgot-password/forgot-password
 import { AboutUsComponent } from '../home/about-us/about-us.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: '', pathMatch: 'full' },
   {
     path: '',
     component: HomeComponent,
     children: [
       { path: 'login', component: LoginComponent },
       { path: 'signup', component: SignupComponent },
-      { path: 'home', component: LandingComponent },
+      { path: '', component: LandingComponent },
       { path: 'forgot-password', component: ForgotPasswordComponent },
       { path: 'about-us', component: AboutUsComponent },
    

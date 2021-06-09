@@ -9,6 +9,7 @@ import { HeaderComponent } from './core/header/header.component';
 
 import { CookieService } from 'ngx-cookie-service';
 import { FooterComponent } from './core/footer/footer.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FooterComponent } from './core/footer/footer.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    PageNotFoundComponent,
    
   ],
 
