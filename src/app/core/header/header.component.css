@@ -91,3 +91,15 @@ header nav ul li a:hover{
     margin-bottom: 18px;
 }
 /* unsemantic-grid responsive tablet */
+.navbar-brand
+{
+    position: relative;
+    width: 170px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#navbar{
+    position:fixed;
+}
