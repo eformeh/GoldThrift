@@ -5,19 +5,18 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HeaderComponent } from './core/header/header.component';
-
+// import { HomeComponent } from './home/home.component';
 import { CookieService } from 'ngx-cookie-service';
-import { FooterComponent } from './core/footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
+    
+
     PageNotFoundComponent,
+    // HomeComponent,
    
   ],
 

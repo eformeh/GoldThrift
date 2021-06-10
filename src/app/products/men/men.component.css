@@ -398,8 +398,8 @@ footer .more a{
     font-weight: 600;
     font-size: 15px
 }
-@media (max-width:790px) {
+/* @media (max-width:790px) {
     img {
-        /* width: 200px; */
+        width: 200px;
     }
-}
+} */

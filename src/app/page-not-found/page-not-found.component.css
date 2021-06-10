@@ -1,0 +1,32 @@
+  
+.centerme{
+    justify-content:center;
+    padding-top: 8rem;
+    
+    margin-left: 25rem;
+    
+}
+.text{
+    margin-left: 20rem;
+
+
+}
+
+/* Media queries */
+
+@media (max-width: 767px){
+    h3,h5,button{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 484px){
+    h3,h5, button{
+        font-size: small;
+    }
+}
+@media (max-width: 399px){
+    h3,h5{
+        text-align: center;
+    }
+}
