@@ -163,6 +163,7 @@ img {
 footer{
     background-color: #9b9b9b;
     font-family: lato;
+    overflow: hidden;
    
 
     
@@ -324,4 +325,18 @@ footer .more a{
         position: relative;
         left: 0px;
     }
+}
+.socialmedia{
+    padding-right: 18px;
+    padding-top:20px;
+    font-size: 23px;
+   
+}
+.socialposition{
+    position: relative;
+    left: 30px;
+}
+.socialmedia:hover{
+    opacity: 0.5;
+    font-size: 30px;
 }
