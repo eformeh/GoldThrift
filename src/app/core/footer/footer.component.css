@@ -197,16 +197,18 @@ footer .contact-us a:visited{
 
 footer .address{
     position: relative;
-    left: 65px;
+    left: 40px;
 }
 
 
-footer .address p{
+footer .address a{
     font-family: 'Roman Italic';
     font-size: 15px;
     line-height: 25px;
     font-weight: 500;
     font-style: italic;
+    text-decoration: none;
+    color: #505050;
 }
 
 footer .social-icons{
@@ -243,7 +245,7 @@ footer .social-icons span:nth-child(3) a {
 
 footer .more{
     position: relative;
-    left: 90px;
+    left: 100px;
 }
 
 footer .more a{
@@ -328,15 +330,64 @@ footer .more a{
 }
 .socialmedia{
     padding-right: 18px;
-    padding-top:20px;
     font-size: 23px;
    
 }
 .socialposition{
-    position: relative;
-    left: 30px;
+    padding-left: 30px;
 }
 .socialmedia:hover{
     opacity: 0.5;
     font-size: 30px;
 }
+.newsinline{
+    padding-bottom: 25px;
+}
+.formcolor{
+    height: 26px;
+}
+.floor{
+    background-color: rgb(29, 28, 28);
+    line-height: 1px;
+}
+.floorwriteup{
+    text-align: center;
+    font-family: lato;
+    font-weight: 300;
+    font-size: 11px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.submitsize{
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 5px;
+    height: 10px;
+    color:black;
+    background-color: gold;
+}
+.submitalert{
+    position: fixed;
+    top: 100px;
+    right:0;
+    padding: 20px;
+    background-color: gold;
+    color: black;
+    display: none;
+}
+
+.closesubmitted{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.closesubmitted:hover{
+    color:white;
+}    
+

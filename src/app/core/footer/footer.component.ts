@@ -7,6 +7,9 @@ import {  } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./footer.component.css', ]
 })
 export class FooterComponent implements OnInit {
+  showAlert(){
+    var chuks= document.getElementById('chuksy')!.style.display="block";
+  }
 
   constructor() { }
 
