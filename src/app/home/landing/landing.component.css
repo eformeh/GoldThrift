@@ -1,8 +1,11 @@
+section {
+    overflow: hidden;
+}
 .mybody{
     /* padding-bottom: 1000px;  */
     background-color: #e9e9e9;
     /* margin-top: 90px; */
-    height: 100%;
+    /* height: 100%; */
 } 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
@@ -248,25 +251,51 @@ footer .more a{
     font-weight: 600;
     font-size: 15px
 }
+@media  (max-width:1075px) {
+    .col {
+        max-width: 50%;
+    }
+    
+    .image-prefix {
+        /* margin-top: 0; */
+        margin-left: 55px;
+        right: 0;
+        height: 270px;
+        justify-content: normal;
+    }
+    img {
+        width: 330px;
+    }
+    .flex-container {
+    /* display: block; */
+    margin: 0 2% 10% 7%;
+    position: relative;
+    /* top: 81px; */
+}    
+}
 @media (max-width:910px) {
+    .writeup {
+        margin-top: 75px;
+    }
     .cols {
         margin-left: 35px;
     }
     h1 {
-        font-size: 50px;
+        font-size: 44px;
         padding-top: 1rem;
     }
     .image-prefix {
-        height: 200px;
+        /* height: 200px; */
         margin-right: 200px;
         display: flex;
         justify-content: flex-start;
     }
     .flex-container{
         display: flex;
-        justify-content: flex-start;
-        margin-top: 47px;
-        margin-left: 40px;
+        /* justify-content: flex-start; */
+        margin-top: 0;
+        top: 46px;
+        /* margin-left: 40px; */
     }
     .flex-container .men a, .flex-container .women a{
         font-size: 16px;
@@ -286,7 +315,43 @@ footer .more a{
     0%   {left:0px; top:0px;}
     25%  {left:0px; top:50px;}
     50%   {left:0px; top:0px;}
-  }  
+  }
+  @media (max-width: 873px) {
+      /* .col {
+          max-width: 100%;
+      } */
+    .rows {
+       display: flex;
+       flex-direction: column;
+       align-content: space-around;
+   }
+   .flex-container {
+       margin-top: 23%;
+       margin-right: 10%;
+       justify-content: center;
+   }
+}
+@media (max-width:570px) {
+    .col {
+        max-width: 100%;
+    }
+    .flex-container {
+        justify-content: flex-start;
+        margin-left: 36px;
+        margin-top: 136px;
+    }
+}
+@media (max-width:485px) {
+    img {
+        width: 271px;
+    }
+    .flex-container {
+        margin-bottom: 17%
+    }
+    .login-button span a{
+        margin-top: 10px;
+    }
+}  
 @media (max-width:375px) {
     /* .rows {
         margin-left: 0;
@@ -312,12 +377,5 @@ footer .more a{
     }
     .flex-container .men a, .flex-container .women a{
         font-size: 12px;
-    }
-    footer .contact-us{
-        margin-left: 0px;
-    }
-    footer .address{
-        position: relative;
-        left: 0px;
     }
 }

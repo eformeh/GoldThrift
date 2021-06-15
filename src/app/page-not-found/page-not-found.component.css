@@ -1,15 +1,11 @@
   
 .centerme{
+    display: flex;
     justify-content:center;
     padding-top: 8rem;
-    
-    margin-left: 25rem;
-    
 }
 .text{
-    margin-left: 20rem;
-
-
+    text-align: center;
 }
 
 /* Media queries */

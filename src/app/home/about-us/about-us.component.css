@@ -45,8 +45,8 @@ html {
     padding-left: 7%;
 }
 .imgclass{
-    padding-right: 6%;
-    padding-left: 4%;
+    /* padding-right: 6%;
+    padding-left: 4%; */
     height: 15rem;
     width: 20rem;
     border:rgb(1, 231, 231) ;
@@ -65,29 +65,6 @@ html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 30px;
 }
-footer{
-    background-color: #9b9b9b;
-    /* height: 200px; */
-    font-family: lato;
-    margin-bottom: 0%;
-}
-
-footer .contact-us h1{
-    text-transform: capitalize;
-    /* font-family: lato; */
-    font-size: 15px;
-    color: #212121;
-    font-weight: 600;
-    margin: 40px 0px 5px 0px;
-}
-
-footer .contact-us a{
-    color: #505050;
-    font-family: lato;
-    line-height: 30px;
-    font-weight: 600;
-    font-size: 15px
-}
 .rowss {
     margin-left:80px;
     margin-right: 80px;
@@ -101,85 +78,7 @@ footer .contact-us a{
 .cols{
     padding-top: 0px;
 }
-footer .contact-us a:visited{
-    color: #1c1c1d;
-}
 
-footer .address{
-    position: relative;
-    left: 65px;
-}
-
-footer .address h1{
-    text-transform: capitalize;
-    font-family: lato;
-    font-size: 15px;
-    color: #212121;
-    font-weight: 600;
-    margin: 40px 0px 5px 0px;
-}
-
-footer .address p{
-    font-family: 'Roman Italic';
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: 500;
-    font-style: italic;
-}
-
-footer .social-icons{
-    margin-top: 70px;
-    display: flex;
-    text-align: right;
-    position: relative;
-    left: 30px;
-}
-
-footer .social-icons span{
-    flex-grow: 1;
-    padding-bottom: 10px;
-}
-
-footer .social-icons span a{
-    text-decoration: none;
-    font-size: 25px;
-    /* color: #505050; */
-}
-
-footer .social-icons span:nth-child(1) a {
-    color: #002788;
-    
-}
-
-footer .social-icons span:nth-child(2) a {
-    color: #4971ff;
-}
-
-footer .social-icons span:nth-child(3) a {
-    color: #ff1b32;
-}
-
-footer .more{
-    position: relative;
-    left: 80px;
-}
-
-footer .more h1{
-    text-transform: capitalize;
-    /* font-family: lato; */
-    font-size: 15px;
-    color: #212121;
-    font-weight: 600;
-    margin: 40px 0px 5px 0px;
-}
-
-footer .more a{
-    color: #505050;
-    /* font-family: lato; */
-    line-height: 30px;
-    font-weight: 600;
-    font-size: 15px
-}
 @media (max-width:1125px) {
 
 	.rowss{
@@ -194,9 +93,45 @@ footer .more a{
     }
     .cols{
         padding-top: 20px;
+        margin-left: 126px;
     }
     .quote p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-left: 30px;
     }
 }
+@media(max-width: 745px) {
+    .imgclass{
+        width: 15rem;
+        
+    }
+    .rowss{
+        margin-left: 9px;
+
+    }
+}
+@media(max-width: 375px){
+    .header_title{
+        padding-top: 25px;
+    }
+    .header_titleWrap{
+        margin: 3px;
+    }
+    .pic_container{
+        padding-left: 6px;
+    }
+    .cols {
+        margin-left: 30px;
+    }
+}
+@media(max-width: 975px){
+    .cols{
+        margin-left: 60px;
+    }
+}
+@media(max-width: 870px){
+    .cols{
+        margin-left: 10px;
+    }
+}
+

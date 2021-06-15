@@ -312,94 +312,15 @@ img {
     box-shadow: 5px 5px 9px grey;
     background-image: linear-gradient(to bottom right,  rgb(228, 108, 108), rgb(253, 86, 8));
 }
-footer{
-    background-color: #9b9b9b;
-    font-family: lato;
-    
-}
-footer h1{
-    text-transform: capitalize;
-    /* font-family: lato; */
-    font-size: 15px;
-    color: #212121;
-    font-weight: 600;
-    padding-top: 2rem;
-    line-height: 0px;
-    /* margin: 40px 0px 5px 0px; */
-}
-
-footer .contact-us a{
-    color: #505050;
-    font-family: lato;
-    line-height: 30px;
-    font-weight: 600;
-    font-size: 15px
-}
-
-footer .contact-us a:visited{
-    color: #1c1c1d;
-}
-
-footer .address{
-    position: relative;
-    left: 65px;
-}
-
-
-footer .address p{
-    font-family: 'Roman Italic';
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: 500;
-    font-style: italic;
-}
-
-footer .social-icons{
-    margin-top: 70px;
-    display: flex;
-    text-align: right;
-    position: relative;
-    left: 30px;
-}
-
-footer .social-icons span{
-    flex-grow: 1;
-    padding-bottom: 10px;
-}
-
-footer .social-icons span a{
-    text-decoration: none;
-    font-size: 25px;
-    /* color: #505050; */
-}
-
-footer .social-icons span:nth-child(1) a {
-    color: #002788;
-    
-}
-
-footer .social-icons span:nth-child(2) a {
-    color: #4971ff;
-}
-
-footer .social-icons span:nth-child(3) a {
-    color: #ff1b32;
-}
-
-footer .more{
-    position: relative;
-    left: 90px;
-}
-
-footer .more a{
-    color: #505050;
-    /* font-family: lato; */
-    line-height: 30px;
-    font-weight: 600;
-    font-size: 15px
-}
-/* @media (max-width:790px) {
-    img {
-        width: 200px;
+@media(max-width: 768px){
+    .info-aside{
+        width: 320px;
+        /* margin: 10px; */
     }
-} */
+}
+@media(max-width: 375px){
+    .info-aside{
+        width: 111px;
+        /* margin: 10px; */
+    }
+}

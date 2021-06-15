@@ -108,11 +108,11 @@ header nav ul li a:hover{
 .navbar-collapse{
     background-color: #fcfcfc;
 }
-/* @media(max-width:1115px) {
-    .navbar,.navbar-expand-lg,.navbar-light, .bg-light, .navbar-expand{
-        width: 50px;
+@media(max-width:1112px) {
+    #search{
+       padding-left: 0;
     }
        
     
 
-} */
+}

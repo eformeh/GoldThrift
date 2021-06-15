@@ -255,6 +255,84 @@ footer .more a{
     font-weight: 600;
     font-size: 15px
 }
+.socialmedia{
+    padding-right: 18px;
+    font-size: 23px;
+   
+}
+.socialposition{
+    padding-left: 30px;
+}
+.socialmedia:hover{
+    opacity: 0.5;
+    font-size: 30px;
+}
+.newsinline{
+    padding-bottom: 25px;
+}
+.formcolor{
+    height: 26px;
+}
+.floor{
+    background-color: rgb(29, 28, 28);
+    line-height: 1px;
+}
+.floorwriteup{
+    text-align: center;
+    font-family: lato;
+    font-weight: 300;
+    font-size: 11px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.form-inline {
+    flex-flow: nowrap;
+}
+.send-btn {
+    background: black;
+    color: gold;
+    border-radius: 7px;
+}
+.submitsize{
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 5px;
+    height: 10px;
+    color:black;
+    background-color: gold;
+}
+.submitalert{
+    position: fixed;
+    top: 100px;
+    right:0;
+    padding: 20px;
+    background-color: gold;
+    color: black;
+    display: none;
+}
+
+.closesubmitted{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.closesubmitted:hover{
+    color:white;
+}
+@media (max-width:1045px) {
+    .rows {
+        margin-right: 15px;
+    }
+    footer .more {
+        left: 45px;
+    }
+}
 @media (max-width:910px) {
     .cols {
         margin-left: 35px;
@@ -293,6 +371,23 @@ footer .more a{
     0%   {left:0px; top:0px;}
     25%  {left:0px; top:50px;}
     50%   {left:0px; top:0px;}
+  }
+  @media (max-width:850px) {
+        .rows {
+            display: flex;
+            flex-direction: column;
+        }
+        .col {
+            display: flex;
+            justify-content: center;
+        }
+        footer .contact-us{
+            margin-left: -38px;
+        }
+        footer .more {
+            position: static;
+            margin-right: 86px;
+        }
   }  
 @media (max-width:375px) {
     /* .rows {
@@ -322,72 +417,14 @@ footer .more a{
     }
     footer .contact-us{
         margin-left: 0px;
+        margin-right: 40px;
     }
     footer .address{
         position: relative;
-        left: 0px;
+        left: 40px;
     }
-}
-.socialmedia{
-    padding-right: 18px;
-    font-size: 23px;
-   
-}
-.socialposition{
-    padding-left: 30px;
-}
-.socialmedia:hover{
-    opacity: 0.5;
-    font-size: 30px;
-}
-.newsinline{
-    padding-bottom: 25px;
-}
-.formcolor{
-    height: 26px;
-}
-.floor{
-    background-color: rgb(29, 28, 28);
-    line-height: 1px;
-}
-.floorwriteup{
-    text-align: center;
-    font-family: lato;
-    font-weight: 300;
-    font-size: 11px;
-    color: white;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-.submitsize{
-    display: flex;
-    /* justify-content: flex-end; */
-    width: 5px;
-    height: 10px;
-    color:black;
-    background-color: gold;
-}
-.submitalert{
-    position: fixed;
-    top: 100px;
-    right:0;
-    padding: 20px;
-    background-color: gold;
-    color: black;
-    display: none;
-}
-
-.closesubmitted{
-    margin-left: 15px;
-    color: black;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor:pointer;
-    transition: 0.3s;
-}
-.closesubmitted:hover{
-    color:white;
+    .floorwriteup {
+        font-size: 9px;
+    }
 }    
 
