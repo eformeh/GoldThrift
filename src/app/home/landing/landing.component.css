@@ -4,7 +4,7 @@ section {
 .mybody{
     /* padding-bottom: 1000px;  */
     background-color: #e9e9e9;
-    /* margin-top: 90px; */
+    margin-top: 28px;
     /* height: 100%; */
 } 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
@@ -28,7 +28,7 @@ html {
 
 .writeup {
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 h1 {
     font-family: lato;
@@ -255,7 +255,9 @@ footer .more a{
     .col {
         max-width: 50%;
     }
-    
+    .mybody{
+        margin-top: 45px;
+    }
     .image-prefix {
         /* margin-top: 0; */
         margin-left: 55px;
@@ -331,6 +333,24 @@ footer .more a{
        justify-content: center;
    }
 }
+@media (max-width: 739px) {
+    /* h1 {
+        font-size: 35px;
+    }
+    .login-button span a{
+        margin-top: 10px;
+    } */
+        .col {
+            max-width: 100%;
+        }
+        .flex-container {
+            justify-content: flex-start;
+            margin-left: 36px;
+            margin-top: 136px;
+        }
+
+}
+
 @media (max-width:570px) {
     .col {
         max-width: 100%;
@@ -363,7 +383,7 @@ footer .more a{
     }
     .writeup {
         margin-left: 0;
-        margin-top: 116px;
+        margin-top: 150px;
     }
     h1 {
         font-size: 38px;
