@@ -415,16 +415,23 @@ footer .more a{
     .flex-container .men a, .flex-container .women a{
         font-size: 12px;
     }
+    .flex-container{
+        margin-left: 22px;
+    }
     footer .contact-us{
         margin-left: 0px;
-        margin-right: 40px;
+        margin-right: 95px;
     }
     footer .address{
         position: relative;
-        left: 40px;
+        left: 12px;
     }
     .floorwriteup {
         font-size: 9px;
     }
+    footer .more {
+        margin-right: 144px;
+    }
+
 }    
 
