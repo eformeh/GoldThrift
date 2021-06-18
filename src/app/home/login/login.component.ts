@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClient } from '@angular/common/http';
+import { UserService } from './../../services/user.service';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -7,13 +9,25 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(
-
-  ) {
+  allUsers = [];
+  
+  email = "";
+  password = "";
+  
+  constructor(private http: HttpClient, private User: UserService) {
 
   }
 
   ngOnInit(): void {
+    this.getUser();
   }
-
+  getUser() {
+    this.User.getUser().subscribe(res => {
+      console.log(res);
+      this.allUsers = res;
+    },
+      err => {
+        console.log(err);
+      })
+  }
 }

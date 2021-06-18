@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  API_URL: {
+    BASE_URL: "https://60c1dbe64f7e880017dc0958.mockapi.io/api/goldthrift/v1",
+    UserService: {
+      User: 'Users',
+    },
+  }
+
 };
 
 /*

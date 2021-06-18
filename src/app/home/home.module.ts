@@ -10,7 +10,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { HeaderComponent } from '../core/header/header.component';
 import { FooterComponent } from '../core/footer/footer.component';
 import { CoreModule } from '../core/core.module';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     LoginComponent,
@@ -21,14 +21,14 @@ import { CoreModule } from '../core/core.module';
     AboutUsComponent,
     // HeaderComponent,
     // FooterComponent,
-    
-   
+
+
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
     CoreModule,
-
+    FormsModule,
   ],
   exports: [
     LoginComponent,

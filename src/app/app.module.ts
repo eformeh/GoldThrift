@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // import { HomeComponent } from './home/home.component';
 import { CookieService } from 'ngx-cookie-service';
+
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
