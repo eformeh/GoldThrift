@@ -14,19 +14,19 @@ export class LoginComponent implements OnInit {
   email = "";
   password = "";
 
-  constructor(private http: HttpClient, private User: UserService) {
-
-  }
+  constructor(private http: HttpClient, private User: UserService) {}
 
   ngOnInit(): void {
-    this.loginUser();
   }
-  loginUser() {
-    this.User.loginUser()
+
+  public loginUser() {
+    const body = {email: this.email, password: this.password};
+    this.User.getUsers()
       .subscribe(
         res => {
           console.log(res);
-          this.allUsers = res;
+          const result = res.find( (email) => email === body.email );
+
         },
         err => {
           console.log(err);

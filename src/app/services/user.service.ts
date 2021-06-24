@@ -8,13 +8,10 @@ import { ApiHandlerService } from './api-handler.service';
 export class UserService {
 
   private getUserURL = env.API_URL.UserService.User;
-  
-
 
   constructor(private readonly apiService: ApiHandlerService) { }
 
-  loginUser() {
-    console.log(this.getUserURL);
+  getUsers() {
     return this.apiService.get(`${this.getUserURL}`);
   }
 }
