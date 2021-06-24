@@ -10,24 +10,26 @@ import { UserService } from './../../services/user.service';
 export class LoginComponent implements OnInit {
 
   allUsers = [];
-  
+
   email = "";
   password = "";
-  
+
   constructor(private http: HttpClient, private User: UserService) {
 
   }
 
   ngOnInit(): void {
-    this.getUser();
+    this.loginUser();
   }
-  getUser() {
-    this.User.getUser().subscribe(res => {
-      console.log(res);
-      this.allUsers = res;
-    },
-      err => {
-        console.log(err);
-      })
+  loginUser() {
+    this.User.loginUser()
+      .subscribe(
+        res => {
+          console.log(res);
+          this.allUsers = res;
+        },
+        err => {
+          console.log(err);
+        })
   }
 }

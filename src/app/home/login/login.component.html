@@ -22,8 +22,8 @@
 <app-header></app-header>
 <div class="login-section">
     <div>
-        
-        <form  id="msform" action="" style="text-align:center" data-netlify="true">
+
+        <form id="msform" action="" style="text-align:center" data-netlify="true">
             <h1 style="text-align:center">LOGIN</h1>
 
             <div class="login-content form-control  col-5 align-self-center d-inline con">
@@ -38,12 +38,13 @@
             </div>
 
             <div class="login-button">
-                <a onClick>Log In</a>
+                <a onClick=loginUser()>Log In</a>
             </div>
 
             <div class="signup">
                 <p><a style="color:rgb(38, 123, 235);" routerLink="/forgot-password">Forgot Password?</a></p><br>
-                <p>Don't have an Account? <a style="color:rgb(38, 123, 235); text-decoration: none;" routerLink="/signup">Sign
+                <p>Don't have an Account? <a style="color:rgb(38, 123, 235); text-decoration: none;"
+                        routerLink="/signup">Sign
                         Up</a></p>
             </div>
         </form>

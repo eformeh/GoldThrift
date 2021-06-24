@@ -10,6 +10,9 @@ export const environment = {
     UserService: {
       User: 'Users',
     },
+    NewsService: {
+      newsletter: 'newsletter',
+    },
   }
 
 };

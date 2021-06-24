@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment as env } from '../../environments/environment';
 import { ApiHandlerService } from './api-handler.service';
@@ -12,7 +13,7 @@ export class UserService {
 
   constructor(private readonly apiService: ApiHandlerService) { }
 
-  getUser() {
+  loginUser() {
     console.log(this.getUserURL);
     return this.apiService.get(`${this.getUserURL}`);
   }
