@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
       .subscribe(
         res => {
           console.log(res);
-          const result = res.find( (email) => email === body.email );
+          // const result = res.find( (email) => email === body.email );
 
         },
         err => {

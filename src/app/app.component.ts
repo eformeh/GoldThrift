@@ -8,6 +8,7 @@ import * as AOS from 'aos';
 export class AppComponent {
   title = 'GoldThrift';
   ngOnInit(){
+    scrollTo(0,0)
     AOS.init();
   }
 }
