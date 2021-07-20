@@ -304,12 +304,14 @@ footer .more a{
 }
 .submitalert{
     position: fixed;
-    top: 100px;
+    top: 150px;
     right:0;
-    padding: 20px;
+    /* padding: 10px; */
     background-color: gold;
     color: black;
     display: none;
+   height: 20px;
+    border-radius: 3px;
 }
 
 .closesubmitted{
@@ -321,6 +323,8 @@ footer .more a{
     line-height: 20px;
     cursor:pointer;
     transition: 0.3s;
+    
+    
 }
 .closesubmitted:hover{
     color:white;

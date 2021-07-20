@@ -41,14 +41,17 @@
                     <a href="https://chat.whatsapp.com/HSckTUvrnZYCkH8JjLU57i" target="_blank"class="fab fa-whatsapp socialmedia" style="color: rgb(24, 253, 24); text-decoration: none;"></a><br>
                     <p style="padding-top: 20px;">Subscribe to our Newsletter:</p>
                     <div class="newsinline">
-                        <form id="search" class="form-inline">
-                            <input class="form-control mr-sm-2 formcolor" type="search" placeholder="Enter your email address" aria-label="Newsletter">
-                            <button type="submit" name="submit" class="submit action-button send-btn" value="Submit" (click)="showAlert()">Send</button>
-                                <div id="chuksy" class="submitalert animate__animated animate__delay-3s animate__fadeOutUp">
+                        <form id="search" class="form-inline" (ngSubmit) = "showAlert()" >
+                            <input class="form-control mr-sm-2 formcolor" type="email" placeholder="Enter your email address" aria-label="Newsletter">
+                            <span>
+                                <button class="submit action-button send-btn"  (click)="showAlert()">send</button>
+                            </span>
+                                <div id="subscribe" class="submitalert animate__animated animate__delay-3s animate__fadeOutUp">
                                     <span class="closesubmitted">&times;</span>
                                     Subscribed!
                                 </div>
                         </form>
+                        <a style="font-size: smaller;">By entering your email, you agree to our Terms of Service and Privacy Policy.</a>
                     </div>
                 </div>
             </div>
