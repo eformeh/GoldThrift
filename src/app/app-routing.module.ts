@@ -5,7 +5,7 @@ import { LandingComponent } from './home/landing/landing.component';
 // import { ProductComponent } from './products/product.component';
 
 const routesApp: Routes = [
-  { path: '', redirectTo: '', pathMatch: 'full', component:LandingComponent },
+  { path: '', pathMatch: 'full', component:LandingComponent },
 
   {
     path: '',

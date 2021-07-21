@@ -7,6 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // import { HomeComponent } from './home/home.component';
 import { CookieService } from 'ngx-cookie-service';
+import { FormsModule }   from '@angular/forms';
+ import { ReactiveFormsModule } from '@angular/forms';
 
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
@@ -27,6 +29,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     BrowserAnimationsModule,
     HttpClientModule,
     FontAwesomeModule,
+    ReactiveFormsModule,
+    FormsModule  
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]

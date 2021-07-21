@@ -8,7 +8,7 @@ import { ForgotPasswordComponent } from '../home/forgot-password/forgot-password
 import { AboutUsComponent } from '../home/about-us/about-us.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '', pathMatch: 'full' },
+  // { path: '', pathMatch: 'full' },
   {
     path: '',
     component: HomeComponent,

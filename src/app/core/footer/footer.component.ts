@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {  } from '@fortawesome/free-solid-svg-icons';
+// import {  } from '@fortawesome/free-solid-svg-icons';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-footer',
@@ -16,11 +17,9 @@ export class FooterComponent implements OnInit {
   }
 
   showAlert(){
-    // var subscribe = document.querySelector('#chuksy');
-    // subscribe?.addEventListener('click', function(){
-    //   subscribe?.style.display ( "Subscription succesful");
-    // })
-        var newsLetter = document.getElementById('subscribe')!.style.display="block";
+      // var subscribed: any = document.querySelector('#subscribe');
+      // subscribed.innerHTML = 'Subscription successful';
 
+        Swal.fire('Subscribed', '', 'success' )
   }
 }
